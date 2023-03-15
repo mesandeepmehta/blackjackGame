@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
     background-image: url(green.jpg);
     background-size:cover;
     color:white;
@@ -24,6 +26,7 @@ h1{
     margin-top: 35px;
 }
 #play-btn{
+    margin-top: 30px;
     background-color:gold;
 }
 #play-btn:hover{
@@ -53,7 +56,7 @@ h1{
     margin:auto;
     overflow:hidden;
     scrollbar-width: 0;
-    scroll-behavior: ;
+    scroll-behavior: smooth;
 }
 #rst-game{
     width:20px;
