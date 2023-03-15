@@ -44,6 +44,7 @@ h1{
 #new-card-btn:active{
     background-color: royalblue;
     font-size: 20px;
+
 }
 #cards{
     max-height: 2rem;
@@ -53,4 +54,18 @@ h1{
     overflow:hidden;
     scrollbar-width: 0;
     scroll-behavior: ;
+}
+#rst-game{
+    width:20px;
+    height: 20px;
+    position:fixed;
+    top:0px;
+    right:2px;
+    font-size: 15px;
+    color:blue;
+
+}
+#rst-game:hover{
+    background-color: blue;
+    color:white;
 }
