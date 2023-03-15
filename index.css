@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(green.jpg);
+    background-size:cover;
+    color:white;
+    text-align: center;
+}
+
+button{
+    color:white;
+    font-weight: bolder;
+    display:block;
+    width:45%;
+    height:50px;
+    font-size: 25px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    border:none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+h1{
+    margin-top: 35px;
+}
+#play-btn{
+    background-color:gold;
+}
+#play-btn:hover{
+    background-color:yellow;
+    cursor:pointer;
+}
+#new-card-btn{
+    background-color:navy;
+}
+#new-card-btn:hover{
+    background-color:blue;
+    cursor:pointer;
+}
+#play-btn:active{
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+#new-card-btn:active{
+    background-color: royalblue;
+    font-size: 20px;
+}
+#cards{
+    max-height: 2rem;
+    max-width: 50%;
+    display:block;
+    margin:auto;
+    overflow:hidden;
+    scrollbar-width: 0;
+    scroll-behavior: ;
+}
