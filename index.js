@@ -16,7 +16,7 @@ let player = {
 }
 
 let playerData = document.getElementById("player-data")
-playerData.innerHTML = player.name + ": $" + player.chips
+playerData.innerHTML = player.name + ": $" + player.chips            //called object
 
  //initially this button is hidden
 document.getElementById("new-card-btn").style.visibility="hidden"    
